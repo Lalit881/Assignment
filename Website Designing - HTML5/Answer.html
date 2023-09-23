@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5</title>
+  </head>
+  <body>
+    <h1>Website Designing - HTML5</h1>
+    <div>
+      <h3>Q.1 &#41; What are the new tags added in HTML5?</h3>
+      <p>
+        &lt;article&gt; : Represents a self-contained piece of content that can
+        be independently distributed or reused, such as blog posts, articles,
+        and forum posts.<br />
+        &lt;section&gt; : Defines a thematic grouping within a document. It's
+        often used to group related content together.<br />
+        &lt;nav&gt;: Signifies a section of the page that contains navigation
+        links, such as menus or table of contents.<br />
+        &lt;header&gt;: Represents the introductory content of a section or
+        page. It usually contains headings, logos, and navigation elements.<br />
+        &lt;footer&gt;: Represents the closing content of a section or page,
+        often containing copyright information, author details, and links to
+        related content.<br />
+        &lt;aside&gt;: Used for content that is related to the main content but
+        can be considered separate from it, like sidebars, pull quotes, or
+        advertisements.<br />
+      </p>
+    </div>
+    <div>
+      <h3>Q.2 &#41; How to embed audio and video in a webpage?</h3>
+      <p>
+        1. Save your audio and video files in a new directory on your
+        computer.<br />
+        2. Create a new HTML file in the same directory, called index.html.<br />
+        3. Add &lt;audio> and &lt;video> elements to the page; make them display
+        the default browser controls.<br />
+        4. Give both of them &lt;source> elements so that browsers will find the
+        audio format they support best and load it. These should include type
+        attributes.<br />
+        5. Give the &lt;video> element a poster that will be displayed before
+        the video starts to be played. Have fun creating your own poster
+        graphic.<br />
+      </p>
+    </div>
+    <div>
+      <h3>Q.3 &#41; Semantic element in HTML5?</h3>
+      <p>
+        &lt;article&gt; : Represents a self-contained piece of content that can
+        be independently distributed or reused, such as blog posts, articles,
+        and forum posts.<br />
+        &lt;section&gt; : Defines a thematic grouping within a document. It's
+        often used to group related content together.<br />
+        &lt;nav&gt;: Signifies a section of the page that contains navigation
+        links, such as menus or table of contents.<br />
+        &lt;header&gt;: Represents the introductory content of a section or
+        page. It usually contains headings, logos, and navigation elements.<br />
+        &lt;footer&gt;: Represents the closing content of a section or page,
+        often containing copyright information, author details, and links to
+        related content.<br />
+        &lt;aside&gt;: Used for content that is related to the main content but
+        can be considered separate from it, like sidebars, pull quotes, or
+        advertisements.<br />
+      </p>
+    </div>
+    <div>
+      <h3>Q.4 &#41; Canvas and SVG tags?</h3>
+      <h3>canvas</h3>
+      <p>
+        1. The &lt;canvas> element provides a drawing surface through
+        JavaScript. It allows for the creation of dynamic, bitmap-based
+        graphics.<br />
+        2. Canvas requires scripting (usually JavaScript) to draw shapes,
+        images, and other graphical elements.<br />
+        3. It is essentially a blank slate, and you use JavaScript to draw on
+        it.<br />
+        4. Canvas is well-suited for applications that require real-time
+        rendering, such as games or interactive data visualization.<br />
+        5. Graphics drawn on a canvas are not retained as objects; once drawn,
+        they are pixels on a bitmap and can't be individually manipulated.<br />
+        6. Canvas graphics are resolution-dependent, meaning they can appear
+        pixelated on high-resolution displays.<br />
+        Example
+        <canvas id="myCanvas" width="500" height="200"></canvas>
+        <script>
+          const canvas = document.getElementById("myCanvas");
+          const ctx = canvas.getContext("2d");
+          ctx.fillStyle = "red";
+          ctx.fillRect(50, 50, 100, 100);
+        </script>
+      </p>
+      <h3>SVG</h3>
+      <p>
+        1. SVG (Scalable Vector Graphics) is an XML-based vector image format 
+          that allows for the creation of resolution-independent graphics.<br>
+        2. SVG is more like a document structure, similar to HTML, 
+          and uses XML tags to define shapes, paths, and other graphical elements.<br>
+        3. It's easy to manipulate and animate SVG elements using CSS or JavaScript.<br>
+          Graphics in SVG are retained as objects, which means 
+        4. they can be manipulated individually (e.g., scaling, rotating).<br>
+        5. SVG graphics are resolution-independent and scale perfectly on all devices and screen sizes.<br>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" fill="blue" />
+        </svg>
+      </p>
+    </div>
+  </body>
+</html>
